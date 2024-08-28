@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram name="Project Structure" id="0">
+        <mxGraphModel dx="485" dy="234" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="50" width="260" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="src/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
+                    <mxGeometry x="100" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="60" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="components/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="4" vertex="1">
+                    <mxGeometry x="70" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="4" vertex="1">
+                    <mxGeometry x="20" y="50" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Table.ts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="6" vertex="1">
+                    <mxGeometry x="10" y="10" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="QuerySQL.ts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="6" vertex="1">
+                    <mxGeometry x="10" y="30" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="View.ts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="6" vertex="1">
+                    <mxGeometry x="10" y="50" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="210" width="220" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="templates/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="10" vertex="1">
+                    <mxGeometry x="70" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="10" vertex="1">
+                    <mxGeometry x="20" y="50" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="createTableTemplate.sql" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="12" vertex="1">
+                    <mxGeometry x="10" y="10" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="otherTemplates.sql" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="12" vertex="1">
+                    <mxGeometry x="10" y="30" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="370" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="services/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="15" vertex="1">
+                    <mxGeometry x="70" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="15" vertex="1">
+                    <mxGeometry x="20" y="50" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="SnowflakeService.ts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="17" vertex="1">
+                    <mxGeometry x="10" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="460" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="utils/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="19" vertex="1">
+                    <mxGeometry x="70" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="19" vertex="1">
+                    <mxGeometry x="20" y="50" width="180" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="TemplateEngine.ts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="21" vertex="1">
+                    <mxGeometry x="10" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="550" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="types/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="23" vertex="1">
+                    <mxGeometry x="70" y="10" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="index.d.ts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="23" vertex="1">
+                    <mxGeometry x="30" y="40" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="2" vertex="1">
+                    <mxGeometry x="20" y="620" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="extension.ts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="26" vertex="1">
+                    <mxGeometry x="50" y="10" width="120" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
