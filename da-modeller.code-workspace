@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "da-modeller",
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	}
+}
