@@ -1,7 +1,7 @@
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
-import { Table } from './components/Table';
+import { TableComponent } from './webview/components/TableComponent'; 
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
@@ -31,12 +31,14 @@ export function activate(context: vscode.ExtensionContext) {
             { name: 'email', type: 'VARCHAR', nullable: false, primaryKey: false, comment: 'User email' },
             { name: 'created_at', type: 'TIMESTAMP', nullable: false, primaryKey: false, comment: 'Creation timestamp' }
         ];
+        const tableComponent = new TableComponent(1, 'Users', 'public', 'MyDatabase');
 
-        // Create an instance of the Table class
-        const table = new Table('John Doe', 'MyDatabase', 'public', 'Users', 'Table storing user information', columns);
-
-        // Generate and display the SQL for creating the table
-        table.create();
+        // Agregar las columnas usando métodos de TableComponent
+        columns.forEach(column => tableComponent.addAttribute(column.name, column.type, column.nullable, column.primaryKey, column.comment));
+        
+        // Generar y mostrar el SQL usando el componente
+        const sql = tableComponent.generateSQL(); 
+        vscode.window.showInformationMessage('Generated SQL:\n' + sql);
     });
 
 	context.subscriptions.push(disposableHelloWorld );
